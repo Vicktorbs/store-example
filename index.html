@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo margint-toleft">Store</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <span class="material-icons">
+                menu
+            </span>
+          </a>
+          <ul class="right hide-on-med-and-down m rectifier">
+            <li><a href="./pages/newProduct.html">Agregar producto</a></li>
+            <li>
+                <a href="./pages/car.html">
+                    <span class="material-icons iconmargin">
+                        shopping_basket
+                    </span>
+                    <span class="new badge" id="listStatus">4</span> 
+                </a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="./pages/newProduct.html">Agregar producto +</a></li>
+        <li>
+            <a href="./pages/car.html">
+                Carrito de compras
+                <span class="new badge">4</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="container topM">
+         <div class="row" id="card-container">
+            <!-- Informacion de localstorage -->
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/product-arr.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.rectifier {
+    margin-right: 60px;
+}
+.margint-toleft {
+    margin-left: 45px;
+}
+.text-bigger {
+    font-size: 50px;
+}
+.topM {
+    margin-top: 25px;
+}
+.iconmargin {
+    margin-top: 7px;
+}
+.price-card {
+    font-size: 25px;
+}
+.cards-title {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+.car-width {
+    width: 80px;
+}
